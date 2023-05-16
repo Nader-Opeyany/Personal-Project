@@ -1,0 +1,111 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: white;
+	font-family: Georgia, Times New Roman, serif;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 320px;
+}
+
+.navbar-inverse {
+    background-color: #00573d;
+    border-color: #00573d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, Times New Roman, serif;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 16px;
+	font-weight: bold;
+}
+
+a {
+    color: #00573d;
+}
+
+a:visited {
+    color: #00573d;
+}
+
+a:hover {
+    color: #00573d;
+}
+
+a:active {
+    color: #00573d;
+}
+
+.navbar-header {
+    width: 100%;
+    min-width: 320px;
+    color: white;
+    line-height: 50px;
+}
+
+#pageHeader {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#navBarTitle {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+}
+
+@media (max-width: 680px)
+{
+    #navBarTitle {
+        font-size: 14px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 450px)
+{
+    #sacStateLogo {
+        width: 108px;
+        height: 30px;
+    }
+}
+
+.center
+{
+    text-align: center;
+}
+.white
+{
+    color: white;
+}
+.bold
+{
+    font-weight: bold;
+}
+.italics
+{
+    font-style: italic;
+}
+.hide
+{
+    visibility: hidden;
+}
+.invisible
+{
+    display: none;
+}
+.clear
+{
+    clear: both;
+}
