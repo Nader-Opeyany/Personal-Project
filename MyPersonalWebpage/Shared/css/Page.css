@@ -1,9 +1,10 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
-    background-color: white;
+    background-color: black;
 	font-family: Georgia, Times New Roman, serif;
 }
+
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
@@ -73,13 +74,7 @@ a:active {
     }
 }
 
-@media (max-width: 450px)
-{
-    #sacStateLogo {
-        width: 108px;
-        height: 30px;
-    }
-}
+
 
 .center
 {
