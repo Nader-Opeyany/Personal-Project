@@ -1,7 +1,8 @@
 body {
+    background-color: black;
     padding-top: 50px;
     padding-bottom: 20px;
-    background-color: black;
+
 	font-family: Georgia, Times New Roman, serif;
 }
 
@@ -33,11 +34,11 @@ h2 {
 }
 
 a {
-    color: #00573d;
+    color: blue;
 }
 
 a:visited {
-    color: #00573d;
+    color: lightblue;
 }
 
 a:hover {
@@ -45,7 +46,7 @@ a:hover {
 }
 
 a:active {
-    color: #00573d;
+    color: blue;
 }
 
 .navbar-header {
@@ -75,7 +76,10 @@ a:active {
 }
 
 
-
+.bg-secondary
+{
+    background-color: blue;
+}
 .center
 {
     text-align: center;
