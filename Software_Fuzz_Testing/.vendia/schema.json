@@ -35,8 +35,7 @@
           },
           "timestampAdded": {
             "description": "When the item was added",
-            "type": "string",
-            "format": "date-time"
+            "type": "string"
           },
           "timestampPurchased": {
             "description": "When the item was purchased",
