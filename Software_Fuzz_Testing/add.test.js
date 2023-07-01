@@ -1,13 +1,14 @@
 const add = require('./add')
+const  superRandom  = require('./generateMalformedInput');
 
-const input = 'yuv265233i23w';
+//variable declerations
+var itemObj =  superRandom(10);
+var recommendedLocationObj = superRandom(10);
 
 //jest functionality
-test('Checks the sent JSON: ', ()=>{
-    expect(addResponse).toBe(input)
+test('Working code UwU', () => {
+  return add(itemObj,recommendedLocationObj).then(data => {
+    expect(data.result.item).toBe(itemObj);
   });
+});
   
-  /*
-test('input matches output', () => {
-  expect(add()).toBe(input);
-});*/

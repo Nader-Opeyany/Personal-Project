@@ -10,10 +10,10 @@ const client = createVendiaClient({
 
 const { entities } = client;
 //Addresponse
-var itemObj = superRandom(10);
+var itemObj =  superRandom(10);
 var recommendedLocationObj = superRandom(10);
 
-async function add(){
+async function add(itemObj,recommendedLocationObj){
     // Add a new "product"
   const before = Date.now();
   const addResponse = await entities.shoppingList.add({
@@ -26,11 +26,13 @@ async function add(){
   })
   const after = Date.now();
   //console.log(`This is elapsed Time: ${(after-before)/1000} seconds`)
-  console.log(addResponse);
-
+  //console.log(addResponse);
+  return addResponse;
 };
 
-
 //Calling functions to run here
-add();
+add(itemObj,recommendedLocationObj);
+
+//exporting for jest testing
+module.exports = add;
 
