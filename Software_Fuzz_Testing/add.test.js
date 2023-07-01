@@ -1,12 +1,13 @@
-import {add} from './add.js'
-/*
+const add = require('./add')
+
+const input = 'yuv265233i23w';
 
 //jest functionality
 test('Checks the sent JSON: ', ()=>{
-    expect(addResponse.result.item).toBe(itemObj)
-  });*/
-  const input = 'yuv265233i23w';
-
+    expect(addResponse).toBe(input)
+  });
+  
+  /*
 test('input matches output', () => {
-  expect(add(input)).toBe(input);
-});
+  expect(add()).toBe(input);
+});*/
