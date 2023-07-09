@@ -1,15 +1,17 @@
+const { describe } = require('node:test');
 const add = require('./add')
 const  superRandom  = require('./generateMalformedInput');
 
-for( i = 0;i<10<i++;){
+
   //variable declerations
   var itemObj =  superRandom(10);
   var recommendedLocationObj = superRandom(10);
 
   //jest functionality
-  test('Working code UwU', () => {
+
+  test('Test result, ensuring the correct data is sent through SDK', async () => {
     return add(itemObj,recommendedLocationObj).then(data => {
       expect(data.result.item).toBe(itemObj);
     });
   });
-};
+
